@@ -23,7 +23,7 @@ module alu (
   always @(*) begin
     case (op)
       `ADD: begin
-        result = a + b;
+        result = a - b;
       end
       `SUB: begin
         result = a - b;
